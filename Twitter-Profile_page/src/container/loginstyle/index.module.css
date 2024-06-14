@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile_main {
+    height: 80vh;
+    border: 1px solid rgb(5, 17, 5);
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    /* gap: 80px; */
+}
+
+.left_box {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right_box {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+    background-color: rgb(110, 214, 248);
+}
+
+.middle_box {
+    border: 1px solid;
+}
